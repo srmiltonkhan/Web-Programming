@@ -1,0 +1,14 @@
+
+<input type="button" onclick="addItem()" value="Add">
+<div id="demo">test</div>
+
+<script>
+    let cars = ['BAJAJ', 'TVS', 'HERO'];
+
+    document.getElementById("demo").innerHTML = cars;
+    
+    const addItem = () => {
+        cars.push("YAMAHA");
+        document.getElementById("demo").innerHTML = cars;
+    }
+</script>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" name="age" id="age">
+    <button type="button" onclick="myFunction()">Justify</button>
+    <script>
+        function myFunction(){
+            let age = document.getElementById("age").value;
+            let votable = (age < 18) ? "Yoo are not able" : "You are able";
+            alert(votable + " to vote.")
+        }
+
+        //syntax
+        variablename = (condition) ? value1:value2 
+
+        let voteable = (age < 18) ? "Too young":"Old enough";
+
+
+    </script>
+</body>
+</html>

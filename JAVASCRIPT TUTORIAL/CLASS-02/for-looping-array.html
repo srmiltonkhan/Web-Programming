@@ -1,0 +1,14 @@
+<div id="demo"></div>
+<script>
+    let cars = ['BAJAJ', 'TVS', 'HERO'];
+
+    carsLength = cars.length;
+    console.log(carsLength)
+
+    let html = `<ul>`;
+    for(let i=0; i<carsLength; i++){
+        html += `<li>${cars[i]}</li>`;
+    }
+    html += `</ul>`;
+    document.getElementById("demo").innerHTML = html;
+</script>
